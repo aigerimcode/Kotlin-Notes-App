@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@color/background"
+        tools:context=".UpdateNoteActivity">
+
+
+<TextView
+        android:id="@+id/editNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Edit Note."
+        android:textColor="@color/dark_green"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"/>
+
+<ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="10dp"
+        android:src = "@drawable/baseline_done_24"
+        android:tint="@color/primary"
+        android:contentDescription="Save changes"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/editNoteHeading"
+/>
+
+<EditText
+        android:id="@+id/updateTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:padding="14dp"
+        android:background="@drawable/bg_input"
+        android:hint="Enter the title"
+        android:textColor="@color/text"
+        android:textSize="17sp"
+        android:textColorHint="@color/secondary"
+        android:layout_below="@id/editNoteHeading"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="@font/poppins"
+/>
+
+    <EditText
+            android:id="@+id/updateContentEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/updateTitleEditText"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_input"
+            android:padding="14dp"
+            android:hint="Write your thoughts here..."
+            android:gravity="top|start"
+            android:textColor="@color/text"
+            android:textColorHint="@color/secondary"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins"
+            android:inputType="textMultiLine|textCapSentences"/>
+
+</RelativeLayout>
