@@ -13,11 +13,10 @@ A simple Android notes application built with **Kotlin** and **SQLite**. This ap
 
 ## 🛠️ Technologies
 
-**Language:** Kotlin
-**Platform:** Android
-**Database:** SQLite
-**IDE:** Android Studio / IntelliJ IDEA
-
+- **Language:** Kotlin
+- **Platform:** Android
+- **Database:** SQLite
+- **IDE:** Android Studio / IntelliJ IDEA
 
 ## 📸 Screenshots
 
