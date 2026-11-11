@@ -22,13 +22,13 @@ A simple Android notes application built with **Kotlin** and **SQLite**. This ap
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home Screen](screenshots/blank-screen.png)
+<img src="screenshots/blank-screen.png" width="250" alt="Home Screen"/>
 
 ### Create Note
-![Create Note](screenshots/create-note.png)
+<img src="screenshots/create-note.png" width="250" alt="Create Note"/>
 
-### My Notes – Home Screen
-![My Notes](screenshots/home-screen.png)
+### My Notes 
+<img src="screenshots/home-screen.png" width="250" alt="My Notes"/>
 
 
 ### Prerequisites
